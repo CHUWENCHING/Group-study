@@ -24,7 +24,8 @@ public class chap1 {
 
         /*5) A/B=? (0 < A, B < 10)*/
 
-        System.out.println(A/B);
+        System.out.println((double) A/(double) B);
+
 
         /*6) A+B,A-B,A*B,A/B,A%B (1 ≤ A, B ≤ 10,000)*/
         int plus = A+B;
